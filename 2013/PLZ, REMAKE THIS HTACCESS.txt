@@ -1,0 +1,7 @@
+AddType application/x-httpd-php70 .php
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule (.*) $1.php [L]
+

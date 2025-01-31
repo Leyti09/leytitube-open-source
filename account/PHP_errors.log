@@ -1,0 +1,4 @@
+[31-Jan-2025 14:24:46 Europe/Berlin] PHP Warning:  Undefined variable $_user in C:\xampp\htdocs\account\index.php on line 443
+[31-Jan-2025 14:24:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\account\index.php on line 443
+[31-Jan-2025 14:24:49 Europe/Berlin] PHP Warning:  Undefined variable $_user in C:\xampp\htdocs\account\index.php on line 443
+[31-Jan-2025 14:24:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\account\index.php on line 443

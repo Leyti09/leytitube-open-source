@@ -1,0 +1,30 @@
+[30-Jan-2025 10:08:11 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'sender' cannot be null in C:\xampp\htdocs\get\like_video.php:43
+Stack trace:
+#0 C:\xampp\htdocs\get\like_video.php(43): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\get\like_video.php on line 43
+[30-Jan-2025 10:08:17 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'sender' cannot be null in C:\xampp\htdocs\get\like_video.php:43
+Stack trace:
+#0 C:\xampp\htdocs\get\like_video.php(43): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\get\like_video.php on line 43
+[30-Jan-2025 10:08:18 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'sender' cannot be null in C:\xampp\htdocs\get\like_video.php:43
+Stack trace:
+#0 C:\xampp\htdocs\get\like_video.php(43): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\get\like_video.php on line 43
+[30-Jan-2025 10:08:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'sender' cannot be null in C:\xampp\htdocs\get\like_video.php:43
+Stack trace:
+#0 C:\xampp\htdocs\get\like_video.php(43): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\get\like_video.php on line 43
+[30-Jan-2025 10:11:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'sender' cannot be null in C:\xampp\htdocs\get\like_video.php:43
+Stack trace:
+#0 C:\xampp\htdocs\get\like_video.php(43): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\get\like_video.php on line 43
+[31-Jan-2025 13:07:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'sender' cannot be null in C:\xampp\htdocs\get\dislike_video.php:47
+Stack trace:
+#0 C:\xampp\htdocs\get\dislike_video.php(47): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\get\dislike_video.php on line 47

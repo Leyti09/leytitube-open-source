@@ -1,0 +1,20 @@
+[30-Jan-2025 20:57:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "case" in C:\xampp\htdocs\d\signup.php on line 80
+[30-Jan-2025 21:01:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "case" in C:\xampp\htdocs\d\signup.php on line 80
+[30-Jan-2025 21:15:09 Europe/Berlin] PHP Warning:  Undefined array key "bio" in C:\xampp\htdocs\d\channel_update.php on line 300
+[30-Jan-2025 21:15:09 Europe/Berlin] PHP Warning:  Undefined array key "bio" in C:\xampp\htdocs\d\channel_update.php on line 300
+[30-Jan-2025 21:15:13 Europe/Berlin] PHP Warning:  Undefined array key "bio" in C:\xampp\htdocs\d\channel_update.php on line 300
+[31-Jan-2025 15:45:01 Europe/Berlin] PHP Warning:  Undefined variable $db in C:\xampp\htdocs\d\signup.php on line 79
+[31-Jan-2025 15:45:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\d\signup.php:79
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\d\signup.php on line 79
+[31-Jan-2025 15:45:51 Europe/Berlin] PHP Warning:  Undefined variable $db in C:\xampp\htdocs\d\signup.php on line 79
+[31-Jan-2025 15:45:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\d\signup.php:79
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\d\signup.php on line 79
+[31-Jan-2025 15:54:11 Europe/Berlin] PHP Warning:  Undefined variable $db in C:\xampp\htdocs\d\signup.php on line 79
+[31-Jan-2025 15:54:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\d\signup.php:79
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\d\signup.php on line 79
