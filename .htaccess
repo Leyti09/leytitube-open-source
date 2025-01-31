@@ -1,0 +1,55 @@
+php_flag display_startup_errors off
+php_flag display_errors off
+php_flag html_errors off
+php_flag log_errors on
+php_flag ignore_repeated_errors off
+php_flag ignore_repeated_source off
+php_flag report_memleaks on
+php_flag track_errors on
+php_value docref_root 0
+php_value docref_ext 0
+php_value error_log PHP_errors.log
+php_value error_reporting 2047
+php_value log_errors_max_len 0
+
+
+AddType application/x-httpd-php70 .php
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule (.*) $1.php [L]
+RewriteRule ^(user/(.*?)/feed)/?$ channel_feed.php?n=$2 [L]
+RewriteCond %{QUERY_STRING} view=1
+RewriteRule ^(user/(.*?)/videos)/?$ channel_playlists.php?n=$2 [L]
+RewriteCond %{QUERY_STRING} view=0
+RewriteRule ^(user/(.*?)/videos)/?$ channel_videos.php?n=$2 [L]
+RewriteRule ^(user/(.*?)/videos)/?$ channel_videos.php?n=$2 [L]
+RewriteRule ^(user/(.*?)/featured)/?$ channel.php?n=$2 [L]
+RewriteRule ^(user/(.*?))/?$ channel.php?n=$2 [L]
+RewriteRule ^(user/(.*?)/discussion)/?$ channel_discussion.php?n=$2 [L]
+RewriteRule ^(userr/(.*?)/featured)/?$ /2013/channel.php?n=$2 [L]
+RewriteRule ^(userr/(.*?)/)/?$ /2013/channel.php?n=$2 [L]
+RewriteRule ^(userr/(.*?)/videos)/?$ /2013/channel_videos.php?n=$2 [L]
+RewriteRule ^(userr/(.*?)/playlists)/?$ /2013/channel_playlists.php?n=$2 [L]
+RewriteRule ^(feed/(.*?)/)/?$ /2013/feed.php?n=$2 [L]
+RewriteRule ^(feed/(.*?)/u)/?$ /2013/feed_uploads.php?n=$2 [L]
+# Check if the requested file exists
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Check if the requested directory exists
+RewriteCond %{REQUEST_FILENAME} -d
+
+# If the directory contains an index.php file, serve it
+RewriteCond %{REQUEST_FILENAME}/index.php -f
+RewriteRule ^(.*)$ /$1/index.php [L]
+
+php_value post_max_size 100M
+php_value upload_max_filesize 100M
+
+ErrorDocument 404 /404.php
+
+<FilesMatch ".(htaccess|htpasswd|ini|phps|fla|psd|log|sh)$">
+ Order Allow,Deny
+ Deny from all
+ </FilesMatch>
